@@ -4,6 +4,7 @@ bin-release/
 [Oo]bj/
 node_modules
 build
+dist
 
 # Other files and folders
 .settings/

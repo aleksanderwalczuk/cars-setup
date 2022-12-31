@@ -138,6 +138,11 @@ const sectionHeader = renderSectionPanel => {
 	headerPage.classList.add('header-page')
 	headerPage.textContent = `page #${1}`
 	renderSectionPanel.appendChild(headerPage)
+
+// FIXME: example of inline svg using webpack 5
+  const example = document.createElement('div');
+  example.innerHTML = carSvg;
+  renderSectionPanel.appendChild(example);
 }
 
 // SECTION PANEL - cars
@@ -150,13 +155,13 @@ const sectionCars = renderSectionPanel => {
 
 // SECTION PANEL - cars create
 
-fetch('http://127.0.0.1:3000/garage')
-	.then(res => res.json())
-	.then(res => {
-		for (let i = 0; i < res.length; i++) {
-			createCar(res[i])
-		}
-	})
+// fetch('http://127.0.0.1:3000/garage')
+// 	.then(res => res.json())
+// 	.then(res => {
+// 		for (let i = 0; i < res.length; i++) {
+// 			createCar(res[i])
+// 		}
+// 	})
 
 const createCar = catchDefaultCar => {
 	const carsUl = document.querySelector('.cars-ul')
