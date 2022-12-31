@@ -1,15 +1,3 @@
-# 🚀 Welcome to your new awesome project!
+# async-race-api
 
-This project has been created using **webpack-cli**, you can now run
-
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
+Task "Async Race": https://github.com/rolling-scopes-school/js-fe-course-en/blob/main/tasks/async-race/async-race.md
