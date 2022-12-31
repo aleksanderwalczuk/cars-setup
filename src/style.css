@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	position: relative;
+}
+
+/* NAV */
+
+.nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 10rem;
+	padding-top: 2rem;
+	background: #222222;
+}
+
+.nav-link {
+	display: inline;
+	margin: 1rem;
+	padding: 1rem 2rem 1rem;
+	text-decoration: none;
+	color: #eeeeee;
+	font-weight: 500;
+	font-size: 3rem;
+	border: 1px solid white;
+}
+
+.nav-link:hover {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+#main {
+	height: 100rem;
+	width: 100%;
+	/* background: #222222; */
+	color: white;
+}
+
+/* GARAGE */
+
+.button {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 16px;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 5px 5px 5px;
+	letter-spacing: 1.25px;
+	text-transform: uppercase;
+	background: #f2f9fe;
+	border-color: #f2f9fe;
+	box-shadow: 0px 3px 5px rgb(0 0 0 / 20%), 0px 1px 18px rgb(0 0 0 / 12%), 0px 6px 10px rgb(0 0 0 / 14%);
+	border-radius: 4px;
+}
+
+/* SETTINGS PANEL */
+
+.set-panel {
+	width: 50rem;
+	height: 15rem;
+	border: 1px solid red;
+}
+
+.form-create,
+.form-update,
+.form-set-btns {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	height: 5rem;
+}
+
+.name-input,
+.name-update {
+	height: 3rem;
+}
+
+/* SECTION PANEL */
+
+.header-garage,
+.header-page {
+	height: 5rem;
+	font-size: 3rem;
+}
+
+/* SECTION PANEL - car */
+
+.car-li {
+	height: 13em;
+	border: 1px solid red;
+}
+
+.car-set-btns {
+	display: flex;
+}
+
+.car-name {
+	color: black;
+}
+
+.car-move-btns {
+	display: flex;
+}
+
+.car-img,
+.flag-img {
+	width: 10rem;
+	height: 10rem;
+}
